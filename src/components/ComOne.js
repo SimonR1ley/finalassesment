@@ -152,10 +152,6 @@ const ComOne = () => {
     }, [])
 
 
-    const faledItems = failedInfo.map((item) => <ComTwo id={item.id} fname={item.flightName} fnum={item.flightNum} imgUrl={item.imgUrl} vidlink={item.videoUrl} />)
-    const successItems = successInfo.map((item) => <ComTwo id={item.id} fname={item.flightName} fnum={item.flightNum} imgUrl={item.imgUrl} vidlink={item.videoUrl} />)
-
-
 
     const chartData = {
 
